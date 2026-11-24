@@ -1,0 +1,12 @@
+path: C:/Users/Ayush/OneDrive/Documents/CircuitDoctor/datasets/pcb_defects
+train: images/train
+val: images/val
+test: images/test
+nc: 6
+names:
+  0: 'Missing Hole'
+  1: 'Mouse Bite'
+  2: 'Open Circuit'
+  3: 'Short'
+  4: 'Spur'
+  5: 'Spurious Copper'

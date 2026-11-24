@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+
+# Ultralytics & Local Configs
+.ultralytics/
+runs/
+*.pth
+*.onnx
+*.engine
+
+# Models: Keep production trained weights (5.5MB) for instant out-of-the-box inference
+# but ignore intermediate/temporary models
+models/last.pt
+models/yolo11n.pt
+models/yolov8n.pt
+yolo11n.pt
+yolov8n.pt
+
+# Datasets (Large binary archives & unpacked image splits)
+datasets/
+*.zip
+*.tar.gz
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Generated inspection media and temporary storage
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/annotated/*
+!backend/annotated/.gitkeep
+backend/reports/*
+!backend/reports/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# SQLite database
+*.sqlite
+*.db
+backend/circuitdoctor.db
+
+# Environment variables
+.env
+backend/.env
+frontend/.env.local
+
+# Logs & IDE
+*.log
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

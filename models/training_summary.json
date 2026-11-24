@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "timestamp_start": "2026-11-22T10:23:37.420234",
+  "timestamp_end": "2026-11-22T10:39:41.183212",
+  "duration_seconds": 963.76,
+  "base_model": "models/yolo11n.pt",
+  "dataset_config": "C:\\Users\\Ayush\\OneDrive\\Documents\\CircuitDoctor\\ml\\configs\\pcb_defects.yaml",
+  "hyperparameters": {
+    "epochs": 3,
+    "batch_size": 16,
+    "imgsz": 640,
+    "device": "cpu",
+    "lr0": 0.01,
+    "patience": 20
+  },
+  "weights": {
+    "best_pt": null,
+    "run_dir": "C:\\Users\\Ayush\\OneDrive\\Documents\\CircuitDoctor\\runs\\detect\\pcb_yolo_train"
+  }
+}

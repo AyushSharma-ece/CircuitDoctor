@@ -1,0 +1,75 @@
+{
+  "evaluation_timestamp": "2026-11-22T10:40:25.540082",
+  "model_file": "C:\\Users\\Ayush\\OneDrive\\Documents\\CircuitDoctor\\models\\best.pt",
+  "evaluation_split": "test",
+  "dataset_yaml": "ml/configs/pcb_defects.yaml",
+  "summary": {
+    "mAP50": 0.8949,
+    "mAP75": 0.6542,
+    "mAP50_95": 0.5673,
+    "mean_precision": 0.8589,
+    "mean_recall": 0.8468
+  },
+  "per_class": {
+    "0": {
+      "class_id": 0,
+      "class_name": "Missing Hole",
+      "map50": 0.9895,
+      "map50_95": 0.6442,
+      "precision": 0.9339,
+      "recall": 0.9626
+    },
+    "1": {
+      "class_id": 1,
+      "class_name": "Mouse Bite",
+      "map50": 0.9744,
+      "map50_95": 0.6043,
+      "precision": 0.8982,
+      "recall": 0.9512
+    },
+    "2": {
+      "class_id": 2,
+      "class_name": "Open Circuit",
+      "map50": 0.9651,
+      "map50_95": 0.5422,
+      "precision": 0.9699,
+      "recall": 0.8062
+    },
+    "3": {
+      "class_id": 3,
+      "class_name": "Short",
+      "map50": 0.4751,
+      "map50_95": 0.2508,
+      "precision": 0.4145,
+      "recall": 0.5578
+    },
+    "4": {
+      "class_id": 4,
+      "class_name": "Spur",
+      "map50": 0.9707,
+      "map50_95": 0.6158,
+      "precision": 0.9647,
+      "recall": 0.8124
+    },
+    "5": {
+      "class_id": 5,
+      "class_name": "Spurious Copper",
+      "map50": 0.9948,
+      "map50_95": 0.7466,
+      "precision": 0.9722,
+      "recall": 0.9903
+    }
+  },
+  "speed": {
+    "preprocess_ms": 2.11,
+    "inference_ms": 49.23,
+    "loss_ms": 0.0,
+    "postprocess_ms": 1.8,
+    "total_ms": 53.14
+  },
+  "hardware": {
+    "device": "cpu",
+    "duration_seconds": 11.69
+  },
+  "plots_saved": []
+}
